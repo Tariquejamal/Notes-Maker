@@ -1,0 +1,57 @@
+* {
+    font-family: calibri;
+
+}
+
+ul>li {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+h2,
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    margin-bottom: 3px;
+    font-size: 37px;
+    padding: 5px;
+    color: magenta;
+    text-shadow: 1px 1px black;
+}
+
+.ulbox,
+.inpbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+#foodInput {
+    width: 25%;
+    height: calc(height(addpoint));
+    font-size: 20px;
+}
+
+#addPoint {
+    font-size: 22px;
+
+}
+
+#addPoint:hover {
+    background-color: blue;
+    color: white;
+    font-family: calibri;
+
+}
+
+#foodInput {
+    --foodInput-height: height(#addPoint);
+}
